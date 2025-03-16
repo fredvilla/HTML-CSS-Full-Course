@@ -1,0 +1,25 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.first-paragraph {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.first-span {
+  color: rgb(96, 96, 96);
+  font-weight: normal;
+}
+
+.second-paragraph {
+  margin-bottom: 20px;
+  width: 500;
+}
+
+.last-span {
+  color: rgb(71, 122, 169);
+  cursor: pointer;
+}
