@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 7g</title>
+    <style>
+      .cat-img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 10px;
+        vertical-align: middle;
+        border-radius: 30px;
+      }
+
+      .description {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(121, 121, 121);
+        font-size: 20px;
+        margin-right: 160px;
+        vertical-align: middle;
+        display: inline;
+        border-style: none;
+      }
+
+
+      .tweet-button {
+        background-color: rgb(68, 140, 214);
+        color: white;
+        font-size: 20px;
+        border-style: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      .tweet-button:hover {
+        opacity: 0.9;
+      }
+      .tweet-button:active {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="cat-img" src="cat2.jpg">
+    <input class="description" placeholder="What&#39;s happening&#63;">
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>
