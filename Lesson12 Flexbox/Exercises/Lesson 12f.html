@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 12f</title>
+    <style>
+      .container {
+        background-color: rgb(102, 74, 153);
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 18px;
+      }
+
+      .flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .home {
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 100px;
+      }
+
+      .search-bar {
+        padding: 10px 25px;
+        font-size: 18px;
+        width: 90rem;
+        border-radius: 25px;
+        border: none;
+      }
+
+      .download-button {
+        margin-left: 100px;
+        border: 1px solid white;
+        background-color: rgb(102, 74, 153);
+        color: whitesmoke;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+      }
+      .download-button:hover {
+        background-color: white;
+        color: rgb(102, 74, 153);
+      }
+      .download-button:active {
+        background-color: rgb(102, 74, 153);
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <div class="home">Home</div>
+        <input class="search-bar" type="search" placeholder="Search" />
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

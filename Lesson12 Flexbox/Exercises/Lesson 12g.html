@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 12g</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      height: 100vh;
+    }
+
+    .container {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 440px;
+      border-radius: 10px;
+    }
+
+    .flexbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .profile-picture {
+      height: 60px;
+      width: 60px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 35px;
+    }
+
+    .user-name {
+      font-family: Arial;
+      font-size: 21px;
+      font-weight: bold;
+      margin-left: 18px;
+    }
+
+    .user-info {
+      width: 260px;
+      font-family: Arial;
+      font-size: 22px;
+      margin-left: 18px;
+      color: rgb(142, 142, 142);
+      line-height: 28px;
+    }
+
+    .user-popular {
+      font-family: Arial;
+      font-size: 18px;
+      margin-left: 18px;
+      color: rgb(142, 142, 142);
+      line-height: 25px;
+    }
+
+    .follow-button {
+      background-color: rgb(64, 147, 240);
+      color: white;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      transition: opacity 0.15s;
+    }
+    .follow-button:hover {
+      opacity: 0.9;
+    }
+    .follow-button:active {
+      box-shadow: none;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <img class="profile-picture" src="imgs/cat0.jpg" />
+
+        <div>
+          <div class="user-name">oliver</div>
+          <div class="user-info">the cat</div>
+          <div class="user-popular">Popular</div>
+        </div>
+        <div>
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <img class="profile-picture" src="imgs/cat1.jpg" />
+        <div>
+          <div class="user-name">Mimi</div>
+          <div class="user-info">Sleepy Cat</div>
+          <div class="user-popular">Popular</div>
+        </div>
+        <div>
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <img class="profile-picture" src="imgs/cat2.jpg" />
+        <div>
+          <div class="user-name">Rex</div>
+          <div class="user-info">Calm Cat</div>
+          <div class="user-popular">Popular</div>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

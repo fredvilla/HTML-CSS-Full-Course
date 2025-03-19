@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 12e</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100vh;
+      }
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+
+      .container {
+        border: 1px solid gray;
+        width: 400px;
+        overflow: hidden;
+        border-radius: 8px;
+        padding: 2px 16px;
+        margin-bottom: -20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      .flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .buttons {
+        background-color: rgb(65, 108, 236);
+        color: whitesmoke;
+        border: none;
+        padding: 8px 20px;
+        font-size: 20px;
+        border-radius: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15s, box-shadow 0.15s;
+      }
+      .buttons:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+      }
+      .buttons:active {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <div>Home</div>
+        <button class="buttons">14</button>
+      </div>
+
+      <div class="flexbox">
+        <div>Notification</div>
+        <button class="buttons">3</button>
+      </div>
+
+      <div class="flexbox">
+        <div>Messages</div>
+        <button class="buttons">5</button>
+      </div>
+    </div>
+  </body>
+</html>
